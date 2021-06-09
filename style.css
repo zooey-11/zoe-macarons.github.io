@@ -17,10 +17,12 @@ h2{
 	font-family: 'Dancing Script', cursive;
 }
 .encadre{
-	border: 6px dashed white;
+	border: 6px solid pink;
 	margin: 50px auto;
 	padding: 50px;
 	width: 500px;
+	border-radius: 15%;
+	box-shadow: 5px 5px 10px grey;
 }
 h3{
 	text-align: center;
@@ -35,6 +37,14 @@ ul{
   align-items: center;
   background: pink;
 
+}
+
+.carte{
+	align-items: left;
+}
+
+.message{
+font-size: 10px;
 }
 
 .menu {
@@ -75,11 +85,47 @@ ul{
 .soustitre{
 	font-family: Arial black;
 }
-
-.carte{
-
+.moi{
+	border: dashed white;
+	border-radius: 50%;
+	box-shadow: 5px 5px 10px grey;
 }
 
+.photomoi{
+	border: 10px dashed gray;
+	margin: 20px auto;
+	padding: 50px;
+	width: 250px;
+	border-radius: 50%;
+
+}
 .carterectangle{
 	background: white;
 }
+
+.rectanglebas{
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Dancing Script', cursive;;
+	margin: 0 100px;
+}
+
+.reponse{
+	margin: 0 100px;
+		padding: 50px;
+	width: 250px;
+}
+
+.cadrereponse{
+	border: 10px dashed gray;
+
+}
+.carte{
+	margin: 0 100px ;
+
+}
+
+
+
