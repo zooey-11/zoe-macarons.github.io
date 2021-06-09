@@ -1,0 +1,85 @@
+body{
+	background: gray;
+	text-align:center;
+	background: #fcf5ee;
+
+}
+.rectanglerose{
+ background: #f8eded;}
+
+h1{
+	color:#ff75a0;
+	font-size: 70px;
+	font-family: arial; 
+}
+
+h2{
+	font-family: 'Dancing Script', cursive;
+}
+.encadre{
+	border: 6px dashed white;
+	margin: 50px auto;
+	padding: 50px;
+	width: 500px;
+}
+h3{
+	text-align: center;
+}
+ul{
+	text-align: center;
+}
+
+.my-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: pink;
+
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+
+.item {
+  margin: 10px 30px;
+  color: #9F3442;
+}
+
+.item:hover {
+  color: #458D2E;
+}
+
+.my-btn{
+	font-family: arial;
+}
+
+.espace {
+	margin: 0 15px;
+}
+
+.recette{
+	font-family: 'Dancing Script', cursive;
+}
+
+.question{
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+}
+.regalez{
+		font-family: 'Dancing Script', cursive;
+}
+
+.soustitre{
+	font-family: Arial black;
+}
+
+.carte{
+
+}
+
+.carterectangle{
+	background: white;
+}
